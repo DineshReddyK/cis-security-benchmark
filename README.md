@@ -1,7 +1,5 @@
 # System Benchmarking Test Runner
 
-Implementing GIM idea - [2020-12312](https://gim.net.nokia.com/servlet/hype/IMT?documentTableId=6414346273185627169&userAction=Browse&templateName=&documentId=9f22964de54ba0c5b869b9404d5e8978)
-
 
 This contains set of benchmarking tests that can be run verify the system against known issues.\
 Intention of this project is to automate [CIS](https://www.cisecurity.org/cis-benchmarks/) benchmarking tests.
