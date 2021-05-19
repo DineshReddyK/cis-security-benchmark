@@ -1,0 +1,52 @@
+{
+   "EtcFileTest":{
+      "active":true,
+      "allow_failure":false,
+      "type":"basic",
+      "description":"",
+      "additional_input":{
+
+      }
+   },
+   "OrphanTest":{
+      "active":true,
+      "allow_failure":false,
+      "type":"basic",
+      "description":"",
+      "additional_input":{
+      }
+   },
+   "SbitTest":{
+      "active":true,
+      "allow_failure":false,
+      "type":"basic",
+      "description":"",
+      "additional_input":{
+      }
+   },
+   "WritableTest":{
+      "active":true,
+      "allow_failure":false,
+      "type":"basic",
+      "description":"",
+      "additional_input":{
+      }
+   },
+   "ACLTest":{
+      "active":true,
+      "allow_failure":true,
+      "type":"advanced",
+      "description":"",
+      "additional_input":{
+
+      }
+   },
+   "CapabilityTest":{
+      "active":true,
+      "allow_failure":true,
+      "type":"advanced",
+      "description":"",
+      "additional_input":{
+      }
+   }
+}
