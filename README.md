@@ -1,5 +1,6 @@
-# System Benchmarking Test Runner
+[![Build](https://circleci.com/gh/DineshReddyK/cis-security-benchmark.svg?style=shield)](https://app.circleci.com/pipelines/github/DineshReddyK/cis-security-benchmark)
 
+# System Benchmarking Test Runner
 
 This contains set of benchmarking tests that can be run verify the system against known issues.\
 Intention of this project is to automate [CIS](https://www.cisecurity.org/cis-benchmarks/) benchmarking tests.
