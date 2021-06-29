@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           command: |
-            sudo pip install pyflakes
+            pip install pyflakes
       - run: pyflakes .
   test:
     docker:
