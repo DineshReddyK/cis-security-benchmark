@@ -11,7 +11,7 @@ workflows:
 jobs:
   Static Analysis:
     docker:
-      - image: python:3.
+      - image: python:3.7
     steps:
       - checkout
       - run:
@@ -20,7 +20,7 @@ jobs:
       - run: pyflakes .
   test:
     docker:
-      - image: python:3.
+      - image: python:3.7
     steps:
       - checkout
       - run: python -m unittest discover -s ./plugins -v
