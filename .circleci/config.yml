@@ -1,0 +1,26 @@
+version: 2.1
+
+# Orchestrate our job run sequence
+workflows:
+  build_and_test:
+    jobs:
+      - Static Analysis
+      - test
+
+# Define the jobs we want to run for this project
+jobs:
+  Static Analysis:
+    docker:
+      - image: python:3.7
+    steps:
+      - checkout
+      - run:
+          command: |
+            sudo pip install pyflakes
+      - run: pyflakes .
+  test:
+    docker:
+      - image: python:3.7
+    steps:
+      - checkout
+      - run: python -m unittest discover -s ./plugins -v
