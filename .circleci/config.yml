@@ -1,12 +1,21 @@
 version: 2.1
 
 # Orchestrate our job run sequence
+#workflows:
+#  build_and_test:
+#    jobs:
+#     - Static Analysis
+#      - test
+
+# Orchestrate our job run sequence
 workflows:
   build_and_test:
     jobs:
       - Static Analysis
-      - test
-
+      - test:
+          requires:
+            - Static Analysis
+            
 # Define the jobs we want to run for this project
 jobs:
   Static Analysis:
